@@ -103,6 +103,12 @@ The project was implemented in a series of structured steps to simulate a produc
 6. **Pipeline Execution**
     - Triggered the DAG to perform the full ETL process: staging raw JSON data, transforming it, and loading it into the Redshift warehouse.
 
+    <p align="center">
+    <img src="assets/Successful Run Details.png" alt="Airflow DAG Successful Run" width="700"/>
+    <br>
+    <em>Figure: Successful DAG run details.</em>
+    </p>
+
 7. **Data Validation**
     - Implemented data quality checks to ensure tables were populated correctly and contained no null or unexpected values.
 

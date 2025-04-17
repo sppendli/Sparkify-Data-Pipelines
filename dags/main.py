@@ -33,8 +33,8 @@ def final_project():
         aws_credentials_id="aws_credentials",
         s3_bucket="psp-airflow",
         s3_key="log-data",
-        file_format="JSON"
-        # json_path='s3://psp-airflow/log_json_path.json'
+        file_format="JSON",
+        json_path='s3://psp-airflow/log_json_path.json'
     )
 
     stage_songs_to_redshift = StageToRedshiftOperator(
@@ -44,8 +44,8 @@ def final_project():
         aws_credentials_id="aws_credentials",
         s3_bucket="psp-airflow",
         s3_key="song-data",
-        file_format="JSON"
-        # json_path='auto'
+        file_format="JSON",
+        json_path='auto'
     )
 
     load_songplays_table = LoadFactOperator(

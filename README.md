@@ -56,7 +56,7 @@ This environment simulates a real-world data engineering setup, integrating clou
 <p align="center">
   <img src="assets/Successful Run.png" alt="Airflow DAG Successful Run" width="700"/>
   <br>
-  <em>Figure: Successful DAG run in Apache Airflow for Sparkify ETL pipeline.</em>
+  <em>Successful DAG run in Apache Airflow for Sparkify ETL pipeline.</em>
 </p>
 
 The project was implemented in a series of structured steps to simulate a production-grade data pipeline that meets the analytical needs of Sparkify’s data team:
@@ -106,7 +106,7 @@ The project was implemented in a series of structured steps to simulate a produc
     <p align="center">
     <img src="assets/Successful Run Details.png" alt="Airflow DAG Successful Run" width="700"/>
     <br>
-    <em>Figure: Successful DAG run details.</em>
+    <em>Successful DAG run details.</em>
     </p>
 
 7. **Data Validation**
